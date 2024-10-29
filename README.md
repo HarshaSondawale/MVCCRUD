@@ -15,9 +15,9 @@ CREATE TABLE Employee(
 #Change the connection String in Web.Config:
 Replace the below query to the connection string used in local server
 
-/<add name="EmpConnection" connectionString="Data Source=ServerName;Initial Catalog=DataBaseName;Integrated Security=True"
+<add name="EmpConnection" connectionString="Data Source=ServerName;Initial Catalog=DataBaseName;Integrated Security=True"
      providerName="System.Data.SqlClient" />
-     
+
 ServerName: Local Name of the server to be added
 
 DataBaseName: Database name for which the script was executed
