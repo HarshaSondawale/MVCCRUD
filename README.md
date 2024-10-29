@@ -1,10 +1,10 @@
 # Web app with CRUD & REST operations with UI 
-Created a sample emplyoee managemnet portal web app with CRUD & REST operations with UI using C#, MVCand ASP.net
+Created a sample employee management portal web app with CRUD & REST operations with UI using C#, MVC and ASP.net
 This project interacts with the SQL Server Database using ADO.NET and performs all the basic CRUD operations. 
 
 
 # Setup the Database:
-This will create the Employee table with the corressponding fields with the following query
+This will create the Employee table with the corresponding fields with the following query
 
 CREATE TABLE Employee(
 	id int IDENTITY(1,1) NOT NULL,
