@@ -1,11 +1,10 @@
-# MVC-CRUD
-Perform basic CRUD operations in .NET MVC. This project interacts with the Database using ADO.NET and performs all the basic CRUD operations. 
+# Web app with CRUD & REST operations with UI 
+Created a sample emplyoee managemnet portal web app with CRUD & REST operations with UI using C#, MVCand ASP.net
+This project interacts with the SQL Server Database using ADO.NET and performs all the basic CRUD operations. 
 
 
 # Setup the Database:
-
-Execute the script MVCCRUD.sql in SQL server. 
-This will create the Employee table with the corressponding fields or create a table with the following query
+This will create the Employee table with the corressponding fields with the following query
 
 CREATE TABLE Employee(
 	id int IDENTITY(1,1) NOT NULL,
@@ -16,7 +15,7 @@ CREATE TABLE Employee(
 #Change the connection String in Web.Config:
 Replace the below query to the connection string used in local server
 
-\<add name="EmpConnection" connectionString="Data Source=ServerName;Initial Catalog=DataBaseName;Integrated Security=True"
+<add name="EmpConnection" connectionString="Data Source=ServerName;Initial Catalog=DataBaseName;Integrated Security=True"
      providerName="System.Data.SqlClient" />
      
 ServerName: Local Name of the server to be added
